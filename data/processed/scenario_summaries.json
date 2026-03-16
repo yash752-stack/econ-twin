@@ -1,0 +1,58 @@
+{
+  "oil_price_surge_40": {
+    "name": "Oil Price Surge +40%",
+    "countries_in_recession": 2,
+    "avg_gdp_growth_delta": -0.412,
+    "avg_inflation_delta": 1.099,
+    "global_severity": "MILD"
+  },
+  "oil_price_crash_50": {
+    "name": "Oil Price Crash -50%",
+    "countries_in_recession": 1,
+    "avg_gdp_growth_delta": 0.516,
+    "avg_inflation_delta": -1.373,
+    "global_severity": "MILD"
+  },
+  "us_rate_hike_200bps": {
+    "name": "US Rate Hike +200bps",
+    "countries_in_recession": 1,
+    "avg_gdp_growth_delta": -0.116,
+    "avg_inflation_delta": -0.069,
+    "global_severity": "MILD"
+  },
+  "china_slowdown_hard": {
+    "name": "China Hard Landing",
+    "countries_in_recession": 1,
+    "avg_gdp_growth_delta": 0.0,
+    "avg_inflation_delta": 0.443,
+    "global_severity": "MILD"
+  },
+  "global_supply_chain": {
+    "name": "Global Supply Chain Disruption",
+    "countries_in_recession": 0,
+    "avg_gdp_growth_delta": 5.0,
+    "avg_inflation_delta": -12.5,
+    "global_severity": "MILD"
+  },
+  "trade_war_us_china": {
+    "name": "US-China Trade War (Full Decoupling)",
+    "countries_in_recession": 0,
+    "avg_gdp_growth_delta": 4.52,
+    "avg_inflation_delta": -9.04,
+    "global_severity": "MILD"
+  },
+  "eurozone_debt_crisis": {
+    "name": "Eurozone Debt Crisis",
+    "countries_in_recession": 1,
+    "avg_gdp_growth_delta": -0.124,
+    "avg_inflation_delta": 0.171,
+    "global_severity": "MILD"
+  },
+  "pandemic_shock": {
+    "name": "Global Pandemic (COVID-scale)",
+    "countries_in_recession": 0,
+    "avg_gdp_growth_delta": 4.0,
+    "avg_inflation_delta": -8.5,
+    "global_severity": "MILD"
+  }
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+.DS_Store
+data/raw/
+data/economic_twin.db
+ml/models/
+*.egg-info/

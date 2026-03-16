@@ -1,0 +1,786 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-16">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="9" title="weight_bn" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="name" type="string" />
+      <attribute id="1" title="region" type="string" />
+      <attribute id="2" title="gdp" type="double" />
+      <attribute id="3" title="gdp_growth" type="double" />
+      <attribute id="4" title="inflation" type="double" />
+      <attribute id="5" title="unemployment" type="double" />
+      <attribute id="6" title="exports" type="double" />
+      <attribute id="7" title="imports" type="double" />
+      <attribute id="8" title="oil_dependency" type="double" />
+    </attributes>
+    <nodes>
+      <node id="USA" label="USA">
+        <attvalues>
+          <attvalue for="0" value="United States" />
+          <attvalue for="1" value="North America" />
+          <attvalue for="2" value="25583831532963.22" />
+          <attvalue for="3" value="0.976602558842725" />
+          <attvalue for="4" value="13.198945773849278" />
+          <attvalue for="5" value="3.9112106750246287" />
+          <attvalue for="6" value="3000000000000.0" />
+          <attvalue for="7" value="3400000000000.0" />
+          <attvalue for="8" value="0.3177676995469933" />
+        </attvalues>
+      </node>
+      <node id="CHN" label="CHN">
+        <attvalues>
+          <attvalue for="0" value="China" />
+          <attvalue for="1" value="East Asia" />
+          <attvalue for="2" value="18386910280819.54" />
+          <attvalue for="3" value="2.205200756751163" />
+          <attvalue for="4" value="8.37212044629439" />
+          <attvalue for="5" value="5.036891469868348" />
+          <attvalue for="6" value="3600000000000.0" />
+          <attvalue for="7" value="2700000000000.0" />
+          <attvalue for="8" value="0.1342317087322567" />
+        </attvalues>
+      </node>
+      <node id="DEU" label="DEU">
+        <attvalues>
+          <attvalue for="0" value="Germany" />
+          <attvalue for="1" value="Europe" />
+          <attvalue for="2" value="4049249564548.099" />
+          <attvalue for="3" value="1.0454069381004991" />
+          <attvalue for="4" value="14.597278404712627" />
+          <attvalue for="5" value="5.9361973673576" />
+          <attvalue for="6" value="1600000000000.0" />
+          <attvalue for="7" value="1500000000000.0" />
+          <attvalue for="8" value="0.3324394426329575" />
+        </attvalues>
+      </node>
+      <node id="JPN" label="JPN">
+        <attvalues>
+          <attvalue for="0" value="Japan" />
+          <attvalue for="1" value="East Asia" />
+          <attvalue for="2" value="4166051472015.084" />
+          <attvalue for="3" value="0.5489282546882712" />
+          <attvalue for="4" value="8.110005203443011" />
+          <attvalue for="5" value="3.6125622284055954" />
+          <attvalue for="6" value="750000000000.0" />
+          <attvalue for="7" value="850000000000.0" />
+          <attvalue for="8" value="0.1891095214819946" />
+        </attvalues>
+      </node>
+      <node id="IND" label="IND">
+        <attvalues>
+          <attvalue for="0" value="India" />
+          <attvalue for="1" value="South Asia" />
+          <attvalue for="2" value="3321734680398.99" />
+          <attvalue for="3" value="6.1877995409557895" />
+          <attvalue for="4" value="11.85450905561319" />
+          <attvalue for="5" value="6.234304220280809" />
+          <attvalue for="6" value="420000000000.0" />
+          <attvalue for="7" value="720000000000.0" />
+          <attvalue for="8" value="0.1887604148399443" />
+        </attvalues>
+      </node>
+      <node id="GBR" label="GBR">
+        <attvalues>
+          <attvalue for="0" value="United Kingdom" />
+          <attvalue for="1" value="Europe" />
+          <attvalue for="2" value="3089893270502.797" />
+          <attvalue for="3" value="3.415909942758565" />
+          <attvalue for="4" value="15.845240479187265" />
+          <attvalue for="5" value="3.6231758603020614" />
+          <attvalue for="6" value="870000000000.0" />
+          <attvalue for="7" value="940000000000.0" />
+          <attvalue for="8" value="0.1817404725710655" />
+        </attvalues>
+      </node>
+      <node id="FRA" label="FRA">
+        <attvalues>
+          <attvalue for="0" value="France" />
+          <attvalue for="1" value="Europe" />
+          <attvalue for="2" value="2784784106408.255" />
+          <attvalue for="3" value="1.5705351972479056" />
+          <attvalue for="4" value="11.071884635255763" />
+          <attvalue for="5" value="7.048043085304815" />
+          <attvalue for="6" value="730000000000.0" />
+          <attvalue for="7" value="800000000000.0" />
+          <attvalue for="8" value="0.2826582850085031" />
+        </attvalues>
+      </node>
+      <node id="BRA" label="BRA">
+        <attvalues>
+          <attvalue for="0" value="Brazil" />
+          <attvalue for="1" value="South America" />
+          <attvalue for="2" value="1934436522601.942" />
+          <attvalue for="3" value="2.0860046038012148" />
+          <attvalue for="4" value="15.862480381381308" />
+          <attvalue for="5" value="8.673615780535936" />
+          <attvalue for="6" value="340000000000.0" />
+          <attvalue for="7" value="270000000000.0" />
+          <attvalue for="8" value="0.2898247636906937" />
+        </attvalues>
+      </node>
+      <node id="CAN" label="CAN">
+        <attvalues>
+          <attvalue for="0" value="Canada" />
+          <attvalue for="1" value="North America" />
+          <attvalue for="2" value="2107023592589.7275" />
+          <attvalue for="3" value="2.3548845238062452" />
+          <attvalue for="4" value="12.06737906403841" />
+          <attvalue for="5" value="5.089700016791516" />
+          <attvalue for="6" value="680000000000.0" />
+          <attvalue for="7" value="640000000000.0" />
+          <attvalue for="8" value="0.076096027973423" />
+        </attvalues>
+      </node>
+      <node id="RUS" label="RUS">
+        <attvalues>
+          <attvalue for="0" value="Russia" />
+          <attvalue for="1" value="Europe/Asia" />
+          <attvalue for="2" value="2209849588320.3813" />
+          <attvalue for="3" value="-2.762909861448919" />
+          <attvalue for="4" value="19.47405193149227" />
+          <attvalue for="5" value="4.59932011933344" />
+          <attvalue for="6" value="590000000000.0" />
+          <attvalue for="7" value="290000000000.0" />
+          <attvalue for="8" value="0.0893734633047162" />
+        </attvalues>
+      </node>
+      <node id="KOR" label="KOR">
+        <attvalues>
+          <attvalue for="0" value="South Korea" />
+          <attvalue for="1" value="East Asia" />
+          <attvalue for="2" value="1674353251889.2593" />
+          <attvalue for="3" value="1.5497749193961885" />
+          <attvalue for="4" value="10.837482120062443" />
+          <attvalue for="5" value="2.914548855231941" />
+          <attvalue for="6" value="680000000000.0" />
+          <attvalue for="7" value="730000000000.0" />
+          <attvalue for="8" value="0.3414185282124918" />
+        </attvalues>
+      </node>
+      <node id="AUS" label="AUS">
+        <attvalues>
+          <attvalue for="0" value="Australia" />
+          <attvalue for="1" value="Oceania" />
+          <attvalue for="2" value="1717166890518.8247" />
+          <attvalue for="3" value="2.6444153009241993" />
+          <attvalue for="4" value="11.3061461239555" />
+          <attvalue for="5" value="3.9243452849295544" />
+          <attvalue for="6" value="440000000000.0" />
+          <attvalue for="7" value="350000000000.0" />
+          <attvalue for="8" value="0.1639357340537689" />
+        </attvalues>
+      </node>
+      <node id="ESP" label="ESP">
+        <attvalues>
+          <attvalue for="0" value="Spain" />
+          <attvalue for="1" value="Europe" />
+          <attvalue for="2" value="1411669405462.5251" />
+          <attvalue for="3" value="4.793514364716299" />
+          <attvalue for="4" value="12.966462612277825" />
+          <attvalue for="5" value="12.346412961399784" />
+          <attvalue for="6" value="450000000000.0" />
+          <attvalue for="7" value="500000000000.0" />
+          <attvalue for="8" value="0.1499005739174593" />
+        </attvalues>
+      </node>
+      <node id="MEX" label="MEX">
+        <attvalues>
+          <attvalue for="0" value="Mexico" />
+          <attvalue for="1" value="North America" />
+          <attvalue for="2" value="1315478401572.2224" />
+          <attvalue for="3" value="2.3642295924199455" />
+          <attvalue for="4" value="13.401827612092047" />
+          <attvalue for="5" value="3.163834646010183" />
+          <attvalue for="6" value="580000000000.0" />
+          <attvalue for="7" value="550000000000.0" />
+          <attvalue for="8" value="0.2081124391734954" />
+        </attvalues>
+      </node>
+      <node id="IDN" label="IDN">
+        <attvalues>
+          <attvalue for="0" value="Indonesia" />
+          <attvalue for="1" value="Southeast Asia" />
+          <attvalue for="2" value="1315255160147.309" />
+          <attvalue for="3" value="4.696389980655301" />
+          <attvalue for="4" value="10.14092667162989" />
+          <attvalue for="5" value="5.526982137235412" />
+          <attvalue for="6" value="290000000000.0" />
+          <attvalue for="7" value="240000000000.0" />
+          <attvalue for="8" value="0.3454009218573524" />
+        </attvalues>
+      </node>
+      <node id="NLD" label="NLD">
+        <attvalues>
+          <attvalue for="0" value="Netherlands" />
+          <attvalue for="1" value="Europe" />
+          <attvalue for="2" value="994672991603.3809" />
+          <attvalue for="3" value="3.5135853992527033" />
+          <attvalue for="4" value="14.543178159639922" />
+          <attvalue for="5" value="3.229762243396953" />
+          <attvalue for="6" value="970000000000.0" />
+          <attvalue for="7" value="880000000000.0" />
+          <attvalue for="8" value="0.0900439917247831" />
+        </attvalues>
+      </node>
+      <node id="SAU" label="SAU">
+        <attvalues>
+          <attvalue for="0" value="Saudi Arabia" />
+          <attvalue for="1" value="Middle East" />
+          <attvalue for="2" value="1092650415059.071" />
+          <attvalue for="3" value="7.945308164215105" />
+          <attvalue for="4" value="7.13703321300958" />
+          <attvalue for="5" value="5.267818242655336" />
+          <attvalue for="6" value="410000000000.0" />
+          <attvalue for="7" value="190000000000.0" />
+          <attvalue for="8" value="0.2893742478847682" />
+        </attvalues>
+      </node>
+      <node id="TUR" label="TUR">
+        <attvalues>
+          <attvalue for="0" value="Turkey" />
+          <attvalue for="1" value="Europe/Asia" />
+          <attvalue for="2" value="905538307356.1174" />
+          <attvalue for="3" value="5.005242319270433" />
+          <attvalue for="4" value="77.64427199344965" />
+          <attvalue for="5" value="10.118618892553188" />
+          <attvalue for="6" value="250000000000.0" />
+          <attvalue for="7" value="360000000000.0" />
+          <attvalue for="8" value="0.2988183994576541" />
+        </attvalues>
+      </node>
+      <node id="CHE" label="CHE">
+        <attvalues>
+          <attvalue for="0" value="Switzerland" />
+          <attvalue for="1" value="Europe" />
+          <attvalue for="2" value="794246773446.0607" />
+          <attvalue for="3" value="1.7925877408376671" />
+          <attvalue for="4" value="7.765284664750828" />
+          <attvalue for="5" value="1.0" />
+          <attvalue for="6" value="470000000000.0" />
+          <attvalue for="7" value="400000000000.0" />
+          <attvalue for="8" value="0.2753534143425254" />
+        </attvalues>
+      </node>
+      <node id="POL" label="POL">
+        <attvalues>
+          <attvalue for="0" value="Poland" />
+          <attvalue for="1" value="Europe" />
+          <attvalue for="2" value="686742575013.8898" />
+          <attvalue for="3" value="3.984886499236704" />
+          <attvalue for="4" value="19.527491441049328" />
+          <attvalue for="5" value="2.3181951158220997" />
+          <attvalue for="6" value="330000000000.0" />
+          <attvalue for="7" value="350000000000.0" />
+          <attvalue for="8" value="0.2241402802981087" />
+        </attvalues>
+      </node>
+      <node id="SWE" label="SWE">
+        <attvalues>
+          <attvalue for="0" value="Sweden" />
+          <attvalue for="1" value="Europe" />
+          <attvalue for="2" value="588856425781.2405" />
+          <attvalue for="3" value="1.6923430600850806" />
+          <attvalue for="4" value="13.336058139334682" />
+          <attvalue for="5" value="8.660885961953113" />
+          <attvalue for="6" value="250000000000.0" />
+          <attvalue for="7" value="230000000000.0" />
+          <attvalue for="8" value="0.1178086993447999" />
+        </attvalues>
+      </node>
+      <node id="BEL" label="BEL">
+        <attvalues>
+          <attvalue for="0" value="Belgium" />
+          <attvalue for="1" value="Europe" />
+          <attvalue for="2" value="586972039957.8176" />
+          <attvalue for="3" value="2.3163676701582885" />
+          <attvalue for="4" value="14.198687526531115" />
+          <attvalue for="5" value="5.62295702218632" />
+          <attvalue for="6" value="520000000000.0" />
+          <attvalue for="7" value="530000000000.0" />
+          <attvalue for="8" value="0.1978593753342339" />
+        </attvalues>
+      </node>
+      <node id="ARG" label="ARG">
+        <attvalues>
+          <attvalue for="0" value="Argentina" />
+          <attvalue for="1" value="South America" />
+          <attvalue for="2" value="629995535854.1671" />
+          <attvalue for="3" value="4.993646411414386" />
+          <attvalue for="4" value="78.1133680092714" />
+          <attvalue for="5" value="6.094424023026265" />
+          <attvalue for="6" value="90000000000.0" />
+          <attvalue for="7" value="80000000000.0" />
+          <attvalue for="8" value="0.1465009968978645" />
+        </attvalues>
+      </node>
+      <node id="NOR" label="NOR">
+        <attvalues>
+          <attvalue for="0" value="Norway" />
+          <attvalue for="1" value="Europe" />
+          <attvalue for="2" value="574211248361.5764" />
+          <attvalue for="3" value="2.7601800370144556" />
+          <attvalue for="4" value="10.39815181894411" />
+          <attvalue for="5" value="3.311946803309291" />
+          <attvalue for="6" value="230000000000.0" />
+          <attvalue for="7" value="150000000000.0" />
+          <attvalue for="8" value="0.2041563392620303" />
+        </attvalues>
+      </node>
+      <node id="ARE" label="ARE">
+        <attvalues>
+          <attvalue for="0" value="UAE" />
+          <attvalue for="1" value="Middle East" />
+          <attvalue for="2" value="508614558937.3371" />
+          <attvalue for="3" value="6.811304978665099" />
+          <attvalue for="4" value="10.40609252328364" />
+          <attvalue for="5" value="1.4049642109066027" />
+          <attvalue for="6" value="250000000000.0" />
+          <attvalue for="7" value="310000000000.0" />
+          <attvalue for="8" value="0.2445514460356064" />
+        </attvalues>
+      </node>
+      <node id="ZAF" label="ZAF">
+        <attvalues>
+          <attvalue for="0" value="South Africa" />
+          <attvalue for="1" value="Africa" />
+          <attvalue for="2" value="421428215437.18933" />
+          <attvalue for="3" value="0.9884148278672764" />
+          <attvalue for="4" value="12.2321438989025" />
+          <attvalue for="5" value="34.14692372384576" />
+          <attvalue for="6" value="120000000000.0" />
+          <attvalue for="7" value="110000000000.0" />
+          <attvalue for="8" value="0.0831295590233308" />
+        </attvalues>
+      </node>
+      <node id="SGP" label="SGP">
+        <attvalues>
+          <attvalue for="0" value="Singapore" />
+          <attvalue for="1" value="Southeast Asia" />
+          <attvalue for="2" value="470272706853.5994" />
+          <attvalue for="3" value="3.2949752538736554" />
+          <attvalue for="4" value="11.325619006947926" />
+          <attvalue for="5" value="1.5843420212631645" />
+          <attvalue for="6" value="520000000000.0" />
+          <attvalue for="7" value="480000000000.0" />
+          <attvalue for="8" value="0.3404197436152276" />
+        </attvalues>
+      </node>
+      <node id="MYS" label="MYS">
+        <attvalues>
+          <attvalue for="0" value="Malaysia" />
+          <attvalue for="1" value="Southeast Asia" />
+          <attvalue for="2" value="413000669887.582" />
+          <attvalue for="3" value="8.171657110175278" />
+          <attvalue for="4" value="8.718772700306081" />
+          <attvalue for="5" value="2.309527540300163" />
+          <attvalue for="6" value="310000000000.0" />
+          <attvalue for="7" value="270000000000.0" />
+          <attvalue for="8" value="0.1247026208327269" />
+        </attvalues>
+      </node>
+      <node id="THA" label="THA">
+        <attvalues>
+          <attvalue for="0" value="Thailand" />
+          <attvalue for="1" value="Southeast Asia" />
+          <attvalue for="2" value="492256908505.6813" />
+          <attvalue for="3" value="1.717656227647864" />
+          <attvalue for="4" value="11.152052992075856" />
+          <attvalue for="5" value="1.0" />
+          <attvalue for="6" value="290000000000.0" />
+          <attvalue for="7" value="280000000000.0" />
+          <attvalue for="8" value="0.1002473267282323" />
+        </attvalues>
+      </node>
+      <node id="EGY" label="EGY">
+        <attvalues>
+          <attvalue for="0" value="Egypt" />
+          <attvalue for="1" value="Africa" />
+          <attvalue for="2" value="391787708143.8508" />
+          <attvalue for="3" value="6.013926934538364" />
+          <attvalue for="4" value="20.13738830149343" />
+          <attvalue for="5" value="6.179257086304848" />
+          <attvalue for="6" value="50000000000.0" />
+          <attvalue for="7" value="90000000000.0" />
+          <attvalue for="8" value="0.0781329578771049" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="USA" target="CHN" id="0" weight="154000000000.0">
+        <attvalues>
+          <attvalue for="9" value="154.0" />
+        </attvalues>
+      </edge>
+      <edge source="USA" target="MEX" id="1" weight="325000000000.0">
+        <attvalues>
+          <attvalue for="9" value="325.0" />
+        </attvalues>
+      </edge>
+      <edge source="USA" target="CAN" id="2" weight="322000000000.0">
+        <attvalues>
+          <attvalue for="9" value="322.0" />
+        </attvalues>
+      </edge>
+      <edge source="USA" target="DEU" id="3" weight="63000000000.0">
+        <attvalues>
+          <attvalue for="9" value="63.0" />
+        </attvalues>
+      </edge>
+      <edge source="USA" target="JPN" id="4" weight="80000000000.0">
+        <attvalues>
+          <attvalue for="9" value="80.0" />
+        </attvalues>
+      </edge>
+      <edge source="USA" target="GBR" id="5" weight="59000000000.0">
+        <attvalues>
+          <attvalue for="9" value="59.0" />
+        </attvalues>
+      </edge>
+      <edge source="USA" target="KOR" id="6" weight="57000000000.0">
+        <attvalues>
+          <attvalue for="9" value="57.0" />
+        </attvalues>
+      </edge>
+      <edge source="USA" target="IND" id="7" weight="41000000000.0">
+        <attvalues>
+          <attvalue for="9" value="41.0" />
+        </attvalues>
+      </edge>
+      <edge source="USA" target="BRA" id="8" weight="41000000000.0">
+        <attvalues>
+          <attvalue for="9" value="41.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="USA" id="9" weight="536000000000.0">
+        <attvalues>
+          <attvalue for="9" value="536.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="DEU" id="10" weight="102000000000.0">
+        <attvalues>
+          <attvalue for="9" value="102.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="JPN" id="11" weight="128000000000.0">
+        <attvalues>
+          <attvalue for="9" value="128.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="KOR" id="12" weight="163000000000.0">
+        <attvalues>
+          <attvalue for="9" value="163.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="IND" id="13" weight="118000000000.0">
+        <attvalues>
+          <attvalue for="9" value="118.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="AUS" id="14" weight="114000000000.0">
+        <attvalues>
+          <attvalue for="9" value="114.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="SGP" id="15" weight="49000000000.0">
+        <attvalues>
+          <attvalue for="9" value="49.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="NLD" id="16" weight="71000000000.0">
+        <attvalues>
+          <attvalue for="9" value="71.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="GBR" id="17" weight="73000000000.0">
+        <attvalues>
+          <attvalue for="9" value="73.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="BRA" id="18" weight="54000000000.0">
+        <attvalues>
+          <attvalue for="9" value="54.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="IDN" id="19" weight="56000000000.0">
+        <attvalues>
+          <attvalue for="9" value="56.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="MYS" id="20" weight="49000000000.0">
+        <attvalues>
+          <attvalue for="9" value="49.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="THA" id="21" weight="42000000000.0">
+        <attvalues>
+          <attvalue for="9" value="42.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHN" target="ZAF" id="22" weight="17000000000.0">
+        <attvalues>
+          <attvalue for="9" value="17.0" />
+        </attvalues>
+      </edge>
+      <edge source="DEU" target="CHN" id="23" weight="107000000000.0">
+        <attvalues>
+          <attvalue for="9" value="107.0" />
+        </attvalues>
+      </edge>
+      <edge source="DEU" target="USA" id="24" weight="148000000000.0">
+        <attvalues>
+          <attvalue for="9" value="148.0" />
+        </attvalues>
+      </edge>
+      <edge source="DEU" target="FRA" id="25" weight="110000000000.0">
+        <attvalues>
+          <attvalue for="9" value="110.0" />
+        </attvalues>
+      </edge>
+      <edge source="DEU" target="NLD" id="26" weight="85000000000.0">
+        <attvalues>
+          <attvalue for="9" value="85.0" />
+        </attvalues>
+      </edge>
+      <edge source="DEU" target="GBR" id="27" weight="95000000000.0">
+        <attvalues>
+          <attvalue for="9" value="95.0" />
+        </attvalues>
+      </edge>
+      <edge source="DEU" target="POL" id="28" weight="71000000000.0">
+        <attvalues>
+          <attvalue for="9" value="71.0" />
+        </attvalues>
+      </edge>
+      <edge source="DEU" target="CHE" id="29" weight="48000000000.0">
+        <attvalues>
+          <attvalue for="9" value="48.0" />
+        </attvalues>
+      </edge>
+      <edge source="JPN" target="CHN" id="30" weight="175000000000.0">
+        <attvalues>
+          <attvalue for="9" value="175.0" />
+        </attvalues>
+      </edge>
+      <edge source="JPN" target="USA" id="31" weight="134000000000.0">
+        <attvalues>
+          <attvalue for="9" value="134.0" />
+        </attvalues>
+      </edge>
+      <edge source="JPN" target="AUS" id="32" weight="38000000000.0">
+        <attvalues>
+          <attvalue for="9" value="38.0" />
+        </attvalues>
+      </edge>
+      <edge source="JPN" target="KOR" id="33" weight="46000000000.0">
+        <attvalues>
+          <attvalue for="9" value="46.0" />
+        </attvalues>
+      </edge>
+      <edge source="IND" target="CHN" id="34" weight="15000000000.0">
+        <attvalues>
+          <attvalue for="9" value="15.0" />
+        </attvalues>
+      </edge>
+      <edge source="IND" target="USA" id="35" weight="76000000000.0">
+        <attvalues>
+          <attvalue for="9" value="76.0" />
+        </attvalues>
+      </edge>
+      <edge source="GBR" target="DEU" id="36" weight="46000000000.0">
+        <attvalues>
+          <attvalue for="9" value="46.0" />
+        </attvalues>
+      </edge>
+      <edge source="GBR" target="USA" id="37" weight="54000000000.0">
+        <attvalues>
+          <attvalue for="9" value="54.0" />
+        </attvalues>
+      </edge>
+      <edge source="GBR" target="CHN" id="38" weight="27000000000.0">
+        <attvalues>
+          <attvalue for="9" value="27.0" />
+        </attvalues>
+      </edge>
+      <edge source="FRA" target="DEU" id="39" weight="98000000000.0">
+        <attvalues>
+          <attvalue for="9" value="98.0" />
+        </attvalues>
+      </edge>
+      <edge source="BRA" target="CHN" id="40" weight="89000000000.0">
+        <attvalues>
+          <attvalue for="9" value="89.0" />
+        </attvalues>
+      </edge>
+      <edge source="BRA" target="USA" id="41" weight="37000000000.0">
+        <attvalues>
+          <attvalue for="9" value="37.0" />
+        </attvalues>
+      </edge>
+      <edge source="BRA" target="ARG" id="42" weight="14000000000.0">
+        <attvalues>
+          <attvalue for="9" value="14.0" />
+        </attvalues>
+      </edge>
+      <edge source="CAN" target="USA" id="43" weight="357000000000.0">
+        <attvalues>
+          <attvalue for="9" value="357.0" />
+        </attvalues>
+      </edge>
+      <edge source="RUS" target="DEU" id="44" weight="49000000000.0">
+        <attvalues>
+          <attvalue for="9" value="49.0" />
+        </attvalues>
+      </edge>
+      <edge source="RUS" target="CHN" id="45" weight="79000000000.0">
+        <attvalues>
+          <attvalue for="9" value="79.0" />
+        </attvalues>
+      </edge>
+      <edge source="RUS" target="NLD" id="46" weight="41000000000.0">
+        <attvalues>
+          <attvalue for="9" value="41.0" />
+        </attvalues>
+      </edge>
+      <edge source="RUS" target="TUR" id="47" weight="33000000000.0">
+        <attvalues>
+          <attvalue for="9" value="33.0" />
+        </attvalues>
+      </edge>
+      <edge source="KOR" target="CHN" id="48" weight="199000000000.0">
+        <attvalues>
+          <attvalue for="9" value="199.0" />
+        </attvalues>
+      </edge>
+      <edge source="KOR" target="USA" id="49" weight="89000000000.0">
+        <attvalues>
+          <attvalue for="9" value="89.0" />
+        </attvalues>
+      </edge>
+      <edge source="KOR" target="JPN" id="50" weight="31000000000.0">
+        <attvalues>
+          <attvalue for="9" value="31.0" />
+        </attvalues>
+      </edge>
+      <edge source="AUS" target="CHN" id="51" weight="86000000000.0">
+        <attvalues>
+          <attvalue for="9" value="86.0" />
+        </attvalues>
+      </edge>
+      <edge source="AUS" target="JPN" id="52" weight="47000000000.0">
+        <attvalues>
+          <attvalue for="9" value="47.0" />
+        </attvalues>
+      </edge>
+      <edge source="AUS" target="IND" id="53" weight="27000000000.0">
+        <attvalues>
+          <attvalue for="9" value="27.0" />
+        </attvalues>
+      </edge>
+      <edge source="MEX" target="USA" id="54" weight="455000000000.0">
+        <attvalues>
+          <attvalue for="9" value="455.0" />
+        </attvalues>
+      </edge>
+      <edge source="IDN" target="CHN" id="55" weight="62000000000.0">
+        <attvalues>
+          <attvalue for="9" value="62.0" />
+        </attvalues>
+      </edge>
+      <edge source="NLD" target="DEU" id="56" weight="92000000000.0">
+        <attvalues>
+          <attvalue for="9" value="92.0" />
+        </attvalues>
+      </edge>
+      <edge source="NLD" target="CHN" id="57" weight="29000000000.0">
+        <attvalues>
+          <attvalue for="9" value="29.0" />
+        </attvalues>
+      </edge>
+      <edge source="SAU" target="CHN" id="58" weight="87000000000.0">
+        <attvalues>
+          <attvalue for="9" value="87.0" />
+        </attvalues>
+      </edge>
+      <edge source="SAU" target="IND" id="59" weight="42000000000.0">
+        <attvalues>
+          <attvalue for="9" value="42.0" />
+        </attvalues>
+      </edge>
+      <edge source="SAU" target="USA" id="60" weight="25000000000.0">
+        <attvalues>
+          <attvalue for="9" value="25.0" />
+        </attvalues>
+      </edge>
+      <edge source="SAU" target="JPN" id="61" weight="38000000000.0">
+        <attvalues>
+          <attvalue for="9" value="38.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHE" target="DEU" id="62" weight="55000000000.0">
+        <attvalues>
+          <attvalue for="9" value="55.0" />
+        </attvalues>
+      </edge>
+      <edge source="POL" target="DEU" id="63" weight="64000000000.0">
+        <attvalues>
+          <attvalue for="9" value="64.0" />
+        </attvalues>
+      </edge>
+      <edge source="ARG" target="BRA" id="64" weight="18000000000.0">
+        <attvalues>
+          <attvalue for="9" value="18.0" />
+        </attvalues>
+      </edge>
+      <edge source="NOR" target="GBR" id="65" weight="35000000000.0">
+        <attvalues>
+          <attvalue for="9" value="35.0" />
+        </attvalues>
+      </edge>
+      <edge source="NOR" target="DEU" id="66" weight="28000000000.0">
+        <attvalues>
+          <attvalue for="9" value="28.0" />
+        </attvalues>
+      </edge>
+      <edge source="ARE" target="IND" id="67" weight="41000000000.0">
+        <attvalues>
+          <attvalue for="9" value="41.0" />
+        </attvalues>
+      </edge>
+      <edge source="ZAF" target="CHN" id="68" weight="21000000000.0">
+        <attvalues>
+          <attvalue for="9" value="21.0" />
+        </attvalues>
+      </edge>
+      <edge source="SGP" target="CHN" id="69" weight="52000000000.0">
+        <attvalues>
+          <attvalue for="9" value="52.0" />
+        </attvalues>
+      </edge>
+      <edge source="MYS" target="CHN" id="70" weight="55000000000.0">
+        <attvalues>
+          <attvalue for="9" value="55.0" />
+        </attvalues>
+      </edge>
+      <edge source="THA" target="CHN" id="71" weight="45000000000.0">
+        <attvalues>
+          <attvalue for="9" value="45.0" />
+        </attvalues>
+      </edge>
+      <edge source="EGY" target="CHN" id="72" weight="18000000000.0">
+        <attvalues>
+          <attvalue for="9" value="18.0" />
+        </attvalues>
+      </edge>
+      <edge source="EGY" target="USA" id="73" weight="8000000000.0">
+        <attvalues>
+          <attvalue for="9" value="8.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

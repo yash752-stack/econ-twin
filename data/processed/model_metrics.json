@@ -1,0 +1,24 @@
+{
+  "gdp_model": {
+    "mae": 3.319,
+    "r2": -0.999,
+    "top_features": [
+      "gdp_growth_pct_roll3",
+      "gdp_growth_pct_lag1",
+      "oil_brent_yoy",
+      "gdp_growth_pct_roll3_std",
+      "gdp_growth_pct_lag2"
+    ]
+  },
+  "inflation_model": {
+    "mae": 3.317,
+    "r2": 0.955,
+    "top_features": [
+      "inflation_pct_lag1",
+      "interest_rate_pct_lag1",
+      "inflation_pct_roll3",
+      "copper_yoy",
+      "oil_brent_yoy"
+    ]
+  }
+}
